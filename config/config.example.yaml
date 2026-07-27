@@ -1,1 +1,36 @@
- 
+waterinfo:
+  # Rijkswaterstaat Waterinfo API base URL
+  base_url: ""
+
+locations:
+  ijsselmeer:
+    # Locatie: Rotterdamse Hoek (IJsselmeer)
+    rotterdamse_hoek: ""
+    # Locatie: Trintelzand (IJsselmeer)
+    trintelzand: ""
+    # Locatie: Andijk (IJsselmeer)
+    andijk: ""
+
+  waterlevel:
+    # Locatie: Kampen (waterstand)
+    kampen: ""
+
+  discharge:
+    # Locatie: Lobith (afvoer)
+    lobith: ""
+
+weather:
+  # Weerdata provider
+  provider: ""
+
+telegram:
+  # Telegram bot token
+  bot_token: ""
+  # Telegram chat ID voor notificaties
+  chat_id: ""
+
+monitor:
+  # Uitvoeringstijd monitoring (HH:MM format)
+  run_time: "06:00"
+  # Tijdzone voor scheduling
+  timezone: "Europe/Amsterdam"
